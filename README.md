@@ -1,4 +1,4 @@
-# jwt Node.js Example
+# JWT Node.js Example
 
 
 #### About
