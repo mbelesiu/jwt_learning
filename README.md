@@ -30,8 +30,6 @@ Servers are running on ports 3000 and 4000 respectively
 #### TO Run Examples
 `Note: I used Postman to handle example requests`
 >POST http://localhost:4000/login 
-Content-Type: json
-{
-"username": "Jim"
-}
-Default config is set to listen to localhost:3005
+>Content-Type: json
+>{"username": "Jim"}
+
