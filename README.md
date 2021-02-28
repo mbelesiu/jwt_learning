@@ -37,3 +37,8 @@ For login and generating new Access Token & Refresh Token:
 For accessing the user's posts:
 >GET http://localhost:3000/posts Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiS3lsZSIsImlhdCI6MTYxNDU0MzY0NywiZXhwIjoxNjE0NTQzNjc3fQ.YfKRYItIOEZ27wfw5S9V6asxWatHRdrdSiHvGuLvpPw
 
+For refreshing Access Token before loging out:
+>POST http://localhost:4000/token Content-Type: json {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSmltIiwiaWF0IjoxNTY4NzU5OTIyfQ.RT6wszuCeFLwC_6ksmNMIELxiC5s-uRivfRxyZof5ag"}
+
+For loging the user out, and ensuring the refresh token is removed as well:
+>DELETE http://localhost:4000/logout Content-Type: json {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSmltIiwiaWF0IjoxNTY4NzU5OTIyfQ.RT6wszuCeFLwC_6ksmNMIELxiC5s-uRivfRxyZof5ag"}
