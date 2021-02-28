@@ -2,10 +2,10 @@
 
 
 #### About
-This is a basic example of a jwt authentication server architecture. 
+This is a basic example of a JWT authentication server architecture. 
 
 Two servers are implemented 
-* An Authentication Server - handles the generation, refreshing, and deletion of jwt tokens
+* An Authentication Server - handles the generation, refreshing, and deletion of JWT tokens
 * A API server - Retrieves posts made by the user
 
 The API server is generic for the example, but what ever your API server is doing, it just needs access to ACCESS_TOKEN_SECRET and REFRESH_TOKEN_SECRET, which are "secretly" stored in an .env file.
