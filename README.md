@@ -27,7 +27,7 @@ $ npm run start2
 ```
 Servers are running on ports 3000 and 4000 respectively 
 
-#### TO Run Examples
+#### To Run Examples
 `Note: I used Postman to handle example requests`
 For login and generating new Access Token & Refresh Token:
 >POST http://localhost:4000/login Content-Type: json {"username": "Jim"}
