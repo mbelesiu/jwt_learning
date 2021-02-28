@@ -1,0 +1,6 @@
+ACCESS_TOKEN_SECRET = FILL_ME_IN
+REFRESH_TOKEN_SECRET = FILL_ME_IN
+
+
+# To generate example tokens, run node and then run
+# require('crypto').randomBytes(64).toString('hex')
