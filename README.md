@@ -35,7 +35,6 @@ For login and generating Access Token & Refresh Token:
 
 
 `Note: Default timeout for Access tokens has been set to 30 seconds`
-
 `Note2: The "Token Keys" used in the following instructions will be unique and generated when you generate them yourselves`
 
 For accessing the user's posts:
