@@ -36,6 +36,8 @@ For login and generating Access Token & Refresh Token:
 
 `Note: Default timeout for Access tokens has been set to 30 seconds`
 
+`Note2: The "Token Keys" used in the following instructions will be unique and generated when you generate them yourselves`
+
 For accessing the user's posts:
 >GET http://localhost:3000/posts Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiS3lsZSIsImlhdCI6MTYxNDU0MzY0NywiZXhwIjoxNjE0NTQzNjc3fQ.YfKRYItIOEZ27wfw5S9V6asxWatHRdrdSiHvGuLvpPw
 
